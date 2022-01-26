@@ -10,6 +10,10 @@ for (item of buttons) {
       buttonText = "*";
       screenValue += buttonText;
       screen.value = screenValue;
+    } else if (buttonText == "←") {
+      var bsp = screen.value;
+      lsp = bsp.substring(0, bsp.length - 1);
+      screen.value = lsp;
     } else if (buttonText == "C") {
       screenValue = "";
       screen.value = screenValue;
