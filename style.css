@@ -1,0 +1,70 @@
+.container {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+  width: 100%;
+  height: 100%;
+}
+.calculator {
+  margin: 0 auto;
+  width: 450px;
+  background-color: #eaedef;
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.keypad {
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+table {
+  margin: auto;
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 25px;
+  border: 0;
+  background-color: #d5dfe6;
+  cursor: pointer;
+}
+input#screen {
+  font-size: 30px;
+  text-align: right;
+  border: 0;
+  padding: 5px 10px;
+  outline: 0;
+  width: 360px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+input#history {
+  font-size: 20px;
+  text-align: right;
+  border: 0;
+  padding: 5px 10px;
+  outline: 0;
+  width: 360px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.color1 {
+  background-color: rgb(238, 160, 104);
+}
+.color2 {
+  background-color: rgb(104, 166, 247);
+}
+.color3 {
+  background-color: rgb(164, 144, 253);
+}
+.color4 {
+  background-color: rgb(245, 97, 178);
+}
+.color5 {
+  background-color: rgb(241, 92, 92);
+}
